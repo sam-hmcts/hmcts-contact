@@ -20,24 +20,28 @@
           "_type": "radio",
           "hint": "For example, wheelchair access or to ask for an interpreter",
           "label": "Request help with a visit to a court or tribunal building",
+          "namespace": "QueryType",
           "value": "HelpWithVisit"
         },
         {
           "_id": "page.task--radios.auto_name__1--radio.auto_value__3",
           "_type": "radio",
           "label": "Find out about help with paying court fees",
+          "namespace": "QueryType",
           "value": "HelpWithFees"
         },
         {
           "_id": "page.task--radios.auto_name__1--radio.auto_value__4",
           "_type": "radio",
           "label": "Respond to a request for more information",
+          "namespace": "QueryType",
           "value": "RespondToRequest"
         },
         {
           "_id": "page.task--radios.auto_name__1--radio.auto_value__5",
           "_type": "radio",
           "label": "Find a court or tribunal building",
+          "namespace": "QueryType",
           "value": "FindCourtOrTribunal"
         }
       ],

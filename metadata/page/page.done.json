@@ -1,8 +1,8 @@
 {
   "_id": "page.done",
   "_type": "page.confirmation",
-  "body": "**What happens next**\r\n\r\nHMCTS will respond to your enquiry by email within 10 working days.",
-  "heading": "You have submitted your query",
-  "lede": "Your reference number is [123456]",
+  "body": "**What happens next**\r\n\r\nAn adviser from a HM Courts and Tribunals Service Centre will respond to your enquiry by email within 10 working days.",
+  "heading": "Thank you for your enquiry",
+  "lede": "We've sent it to HM Courts and Tribunals Service",
   "url": "done"
 }

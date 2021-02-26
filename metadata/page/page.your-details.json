@@ -10,7 +10,8 @@
       "_id": "page.your-details--text.auto_name__5",
       "_type": "text",
       "label": "First name",
-      "name": "FirstName"
+      "name": "FirstName",
+      "namespace": "ApplicantDetails"
     },
     {
       "$component": true,
@@ -20,7 +21,8 @@
       "_id": "page.your-details--text.auto_name__6",
       "_type": "text",
       "label": "Last name",
-      "name": "LastName"
+      "name": "LastName",
+      "namespace": "ApplicantDetails"
     },
     {
       "$component": true,
@@ -32,18 +34,20 @@
       "hint": "[% hint.date %]. HMCTS will only use this for matching purposes.",
       "legend": "Your date of birth",
       "name": "ClientDateOfBirth",
+      "namespace": "ClientDetails",
       "show": {
         "identifier": "auto_name__3",
         "negated": true,
         "operator": "is",
-        "value": "auto_value__9"
+        "value": "Representative"
       }
     },
     {
       "_id": "page.your-details--email.auto_name__4",
       "_type": "email",
       "label": "Your email",
-      "name": "ContactEmail"
+      "name": "ContactEmail",
+      "namespace": "ApplicantDetails"
     }
   ],
   "enableSteps": true,

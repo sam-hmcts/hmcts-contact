@@ -11,31 +11,36 @@
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__8",
           "_type": "radio",
           "label": "Member of the public",
+          "namespace": "ApplicantType",
           "value": "MemberOfPublic"
         },
         {
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__9",
           "_type": "radio",
           "label": "Legal representative",
-          "value": "auto_value__9"
+          "namespace": "ApplicantType",
+          "value": "Representative"
         },
         {
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__10",
           "_type": "radio",
           "label": "Government department or agency",
-          "value": "auto_value__10"
+          "namespace": "ApplicantType",
+          "value": "GovernmentOrAgency"
         },
         {
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__11",
           "_type": "radio",
           "label": "Member of the Judiciary",
+          "namespace": "ApplicantType",
           "value": "auto_value__11"
         },
         {
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__12",
           "_type": "radio",
           "label": "Court or tribunal staff member",
-          "value": "auto_value__12"
+          "namespace": "ApplicantType",
+          "value": "MemberOfJudiciary"
         }
       ],
       "legend": "About you",

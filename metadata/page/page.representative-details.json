@@ -6,25 +6,29 @@
       "_id": "page.representative-details--text.auto_name__4",
       "_type": "text",
       "label": "Client's first name",
-      "name": "FirstName"
+      "name": "FirstName",
+      "namespace": "ClientDetails"
     },
     {
       "_id": "page.representative-details--text.auto_name__7",
       "_type": "text",
       "label": "Client's last name",
-      "name": "LastName"
+      "name": "LastName",
+      "namespace": "ClientDetails"
     },
     {
       "_id": "page.representative-details--date.auto_name__9",
       "_type": "date",
       "legend": "Client's date of birth",
-      "name": "ClientDateOfBirth"
+      "name": "ClientDateOfBirth",
+      "namespace": "ClientDetails"
     },
     {
       "_id": "page.representative-details--text.auto_name__10",
       "_type": "text",
       "label": "Client's postcode",
-      "name": "ClientPostcode"
+      "name": "ClientPostcode",
+      "namespace": "ClientDetails"
     },
     {
       "_id": "page.representative-details--details",
@@ -37,7 +41,7 @@
   "show": {
     "identifier": "auto_name__3",
     "operator": "is",
-    "value": "auto_value__9"
+    "value": "Representative"
   },
   "url": "representative-details"
 }

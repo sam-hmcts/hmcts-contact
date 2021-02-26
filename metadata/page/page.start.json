@@ -1,13 +1,15 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "## Urgent queries\r\n\r\nIf your query is urgent, phone:\r\n\r\n* 0300 123 1072 for [probate enquiries](https://www.find-court-tribunal.service.gov.uk/courts/probate-service-centre)\r\n* 0300 303 0642 for [divorce enquiries](https://www.find-court-tribunal.service.gov.uk/courts/divorce-service-centre)\r\n* 0300 123 1372 for [court claims for money](https://www.find-court-tribunal.service.gov.uk/courts/county-court-money-claims-centre-ccmcc)\r\n\r\nOur call centres are open 8am to 4pm.",
+  "body": "Use the [Find a court or tribunal](https://www.find-court-tribunal.service.gov.uk) service to find out how to contact HMCTS about any other court and tribunal service.",
   "components": [
     {
-      "_id": "page.start--details",
-      "_type": "details",
-      "html": "Calls to these numbers cost up to 10p per minute from landlines and between 3p and 40p per minute from mobiles, depending on your provider.",
-      "summary": "Find out about call charges"
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--content",
+      "_type": "content",
+      "html": "## Before you start\r\n\r\nTo use this service you'll need:\r\n\r\n* a case reference number (if you have one)\r\n* an email address HMCTS can use to reply to you\r\n\r\nYou can't use this service to send documents to HMCTS. Instead, respond to the email directly with your documents attached."
     }
   ],
   "heading": "Contact HMCTS",

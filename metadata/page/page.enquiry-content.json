@@ -1,0 +1,15 @@
+{
+  "_id": "page.enquiry-content",
+  "_type": "page.singlequestion",
+  "actionType": "saveContinue",
+  "components": [
+    {
+      "_id": "page.enquiry-content--textarea.auto_name__14",
+      "_type": "textarea",
+      "hint": "Give as much detail as possible",
+      "label": "Your enquiry",
+      "name": "MessageContent"
+    }
+  ],
+  "url": "enquiry-content"
+}

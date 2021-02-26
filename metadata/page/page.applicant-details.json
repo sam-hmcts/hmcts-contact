@@ -1,0 +1,46 @@
+{
+  "_id": "page.applicant-details",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.applicant-details--radios.auto_name__3",
+      "_type": "radios",
+      "hint": "Select the option that best describes you",
+      "items": [
+        {
+          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Member of the public",
+          "value": "MemberOfPublic"
+        },
+        {
+          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Legal representative",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Government department or agency",
+          "value": "auto_value__10"
+        },
+        {
+          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__11",
+          "_type": "radio",
+          "label": "Member of the Judiciary",
+          "value": "auto_value__11"
+        },
+        {
+          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__12",
+          "_type": "radio",
+          "label": "Court or tribunal staff member",
+          "value": "auto_value__12"
+        }
+      ],
+      "legend": "About you",
+      "name": "auto_name__3"
+    }
+  ],
+  "url": "applicant-details"
+}

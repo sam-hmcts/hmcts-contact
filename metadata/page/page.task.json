@@ -1,0 +1,52 @@
+{
+  "_id": "page.task",
+  "_type": "page.singlequestion",
+  "actionType": "continue",
+  "components": [
+    {
+      "_id": "page.task--radios.auto_name__1",
+      "_type": "radios",
+      "hint": "Select an option that describes why you want to contact HMCTS",
+      "items": [
+        {
+          "_id": "page.task--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Get an update on an application I've submitted",
+          "namespace": "QueryType",
+          "value": "ProgressUpdate"
+        },
+        {
+          "_id": "page.task--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "hint": "For example, wheelchair access or to ask for an interpreter",
+          "label": "Request help with a visit to a court or tribunal building",
+          "value": "HelpWithVisit"
+        },
+        {
+          "_id": "page.task--radios.auto_name__1--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Find out about help with paying court fees",
+          "value": "HelpWithFees"
+        },
+        {
+          "_id": "page.task--radios.auto_name__1--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Respond to a request for more information",
+          "value": "RespondToRequest"
+        },
+        {
+          "_id": "page.task--radios.auto_name__1--radio.auto_value__5",
+          "_type": "radio",
+          "label": "Find a court or tribunal building",
+          "value": "FindCourtOrTribunal"
+        }
+      ],
+      "legend": "About your enquiry",
+      "name": "auto_name__1"
+    }
+  ],
+  "enableSteps": false,
+  "showSteps": true,
+  "steps": [],
+  "url": "task"
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "page._new-or-existing",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page._new-or-existing--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page._new-or-existing--radios.auto_name__2--radio.auto_value__6",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page._new-or-existing--radios.auto_name__2--radio.auto_value__6--text.auto_name__4",
+            "_type": "text",
+            "hint": "For example, REF234-444",
+            "label": "Case reference",
+            "name": "CaseReference",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Yes",
+          "value": "auto_value__6"
+        },
+        {
+          "_id": "page._new-or-existing--radios.auto_name__2--radio.auto_value__7",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__7"
+        }
+      ],
+      "legend": "Do you have a case reference?",
+      "name": "auto_name__2"
+    }
+  ],
+  "show": {
+    "any": [
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "ProgressUpdate"
+      },
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "RespondToRequest"
+      }
+    ],
+    "conditionsType": "any"
+  },
+  "url": "/new-or-existing"
+}

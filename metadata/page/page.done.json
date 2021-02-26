@@ -1,0 +1,8 @@
+{
+  "_id": "page.done",
+  "_type": "page.confirmation",
+  "body": "**What happens next**\r\n\r\nHMCTS will respond to your enquiry by email within 10 working days.",
+  "heading": "You have submitted your query",
+  "lede": "Your reference number is [123456]",
+  "url": "done"
+}

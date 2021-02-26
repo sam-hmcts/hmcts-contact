@@ -1,0 +1,43 @@
+{
+  "_id": "page.representative-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.representative-details--text.auto_name__4",
+      "_type": "text",
+      "label": "Client's first name",
+      "name": "FirstName"
+    },
+    {
+      "_id": "page.representative-details--text.auto_name__7",
+      "_type": "text",
+      "label": "Client's last name",
+      "name": "LastName"
+    },
+    {
+      "_id": "page.representative-details--date.auto_name__9",
+      "_type": "date",
+      "legend": "Client's date of birth",
+      "name": "ClientDateOfBirth"
+    },
+    {
+      "_id": "page.representative-details--text.auto_name__10",
+      "_type": "text",
+      "label": "Client's postcode",
+      "name": "ClientPostcode"
+    },
+    {
+      "_id": "page.representative-details--details",
+      "_type": "details",
+      "html": "HMCTS will use this information to match case details to your enquiry. It won't be used for any other reason.",
+      "summary": "Why am I being asked for this information?"
+    }
+  ],
+  "heading": "About your client",
+  "show": {
+    "identifier": "auto_name__3",
+    "operator": "is",
+    "value": "auto_value__9"
+  },
+  "url": "representative-details"
+}

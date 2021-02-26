@@ -1,0 +1,53 @@
+{
+  "_id": "page.your-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__5",
+      "_type": "text",
+      "label": "First name",
+      "name": "FirstName"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__6",
+      "_type": "text",
+      "label": "Last name",
+      "name": "LastName"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fields": true,
+      "_id": "page.your-details--date.auto_name__8",
+      "_type": "date",
+      "hint": "[% hint.date %]. HMCTS will only use this for matching purposes.",
+      "legend": "Your date of birth",
+      "name": "ClientDateOfBirth",
+      "show": {
+        "identifier": "auto_name__3",
+        "negated": true,
+        "operator": "is",
+        "value": "auto_value__9"
+      }
+    },
+    {
+      "_id": "page.your-details--email.auto_name__4",
+      "_type": "email",
+      "label": "Your email",
+      "name": "ContactEmail"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Your details",
+  "steps": [],
+  "url": "your-details"
+}

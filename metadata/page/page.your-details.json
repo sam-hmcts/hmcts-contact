@@ -31,7 +31,7 @@
       "$fields": true,
       "_id": "page.your-details--date.auto_name__8",
       "_type": "date",
-      "hint": "[% hint.date %]. HMCTS will only use this for matching purposes.",
+      "hint": "[% hint.date %]. We'll only use this to match your query to information we hold",
       "legend": "Your date of birth",
       "name": "ClientDateOfBirth",
       "namespace": "ClientDetails",
@@ -45,6 +45,7 @@
     {
       "_id": "page.your-details--email.auto_name__4",
       "_type": "email",
+      "hint": "We'll only use this to contact you about your application",
       "label": "Your email",
       "name": "ContactEmail",
       "namespace": "ApplicantDetails"

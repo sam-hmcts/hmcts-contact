@@ -2,7 +2,9 @@
   "_id": "service",
   "_isa": "@ministryofjustice/fb-components=>service",
   "_type": "config.service",
+  "emailInputNameUser": "ContactEmail",
   "languageDefault": "en",
   "name": "Contact HM Courts and Tribunals Service",
-  "phase": "none"
+  "phase": "alpha",
+  "phaseText": "This is a prototype version of this form"
 }

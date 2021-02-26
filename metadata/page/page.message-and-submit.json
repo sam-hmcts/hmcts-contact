@@ -1,7 +1,7 @@
 {
   "_id": "page.message-and-submit",
   "_type": "page.summary",
-  "actionType": "saveContinue",
+  "actionType": "custom-1",
   "body": "",
   "components": [
     {
@@ -17,6 +17,7 @@
     }
   ],
   "heading": "Your enquiry",
-  "sendBody": "Select 'continue' below to submit your enquiry to HM Courts and Tribunals Service.",
+  "sendBody": "By sending this enquiry you confirm that, to the best of your knowledge, the information you are providing is correct.",
+  "sendHeading": "Now send your enquiry",
   "url": "your-enquiry"
 }

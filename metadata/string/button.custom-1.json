@@ -1,0 +1,7 @@
+{
+  "_id": "button.custom-1",
+  "_type": "string",
+  "description": "'Send enquiry' button",
+  "value": "Send enquiry",
+  "value:cy": ""
+}

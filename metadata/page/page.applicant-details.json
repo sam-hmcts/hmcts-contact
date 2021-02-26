@@ -44,7 +44,7 @@
         }
       ],
       "legend": "About you",
-      "name": "auto_name__3"
+      "name": "SelectApplicantType"
     }
   ],
   "url": "applicant-details"

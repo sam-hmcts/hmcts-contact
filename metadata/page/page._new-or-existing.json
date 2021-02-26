@@ -30,18 +30,18 @@
         }
       ],
       "legend": "Do you have a case reference?",
-      "name": "auto_name__2"
+      "name": "SelectCaseReference"
     }
   ],
   "show": {
     "any": [
       {
-        "identifier": "auto_name__1",
+        "identifier": "SelectEnquiryType",
         "operator": "is",
         "value": "ProgressUpdate"
       },
       {
-        "identifier": "auto_name__1",
+        "identifier": "SelectEnquiryType",
         "operator": "is",
         "value": "RespondToRequest"
       }

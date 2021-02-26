@@ -36,7 +36,7 @@
       "name": "ClientDateOfBirth",
       "namespace": "ClientDetails",
       "show": {
-        "identifier": "auto_name__3",
+        "identifier": "SelectApplicantType",
         "negated": true,
         "operator": "is",
         "value": "Representative"

@@ -39,7 +39,7 @@
   ],
   "heading": "About your client",
   "show": {
-    "identifier": "auto_name__3",
+    "identifier": "SelectApplicantType",
     "operator": "is",
     "value": "Representative"
   },

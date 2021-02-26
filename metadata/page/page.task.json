@@ -46,7 +46,7 @@
         }
       ],
       "legend": "About your enquiry",
-      "name": "auto_name__1"
+      "name": "SelectEnquiryType"
     }
   ],
   "enableSteps": false,

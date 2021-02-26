@@ -1,0 +1,13 @@
+{
+  "_id": "page.exit-help-with-fees",
+  "_type": "page.exit",
+  "body": "Find out [how to get help with court and tribunal fees](https://www.gov.uk/get-help-with-court-fees), including how to check if you're eligible to apply.",
+  "heading": "Get help paying court or tribunal fees",
+  "lede": "You might be able to get money off your [court or tribunal fees](https://www.gov.uk/court-fees-what-they-are) if you have little or no savings, are on certain benefits or have a low income.",
+  "show": {
+    "identifier": "SelectEnquiryType",
+    "operator": "is",
+    "value": "HelpWithFees"
+  },
+  "url": "exit-help-with-fees"
+}

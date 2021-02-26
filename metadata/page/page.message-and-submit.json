@@ -1,0 +1,22 @@
+{
+  "_id": "page.message-and-submit",
+  "_type": "page.summary",
+  "actionType": "saveContinue",
+  "body": "",
+  "components": [
+    {
+      "_id": "page.message-and-submit--textarea.auto_name__1",
+      "_type": "textarea",
+      "errors": {
+        "required": {}
+      },
+      "hint": "Give as much information as possible",
+      "label": "Your message",
+      "name": "MessageContent",
+      "optionalText": ""
+    }
+  ],
+  "heading": "Your enquiry",
+  "sendBody": "Select 'continue' below to submit your enquiry to HM Courts and Tribunals Service.",
+  "url": "your-enquiry"
+}

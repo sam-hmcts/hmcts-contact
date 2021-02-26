@@ -51,6 +51,9 @@
   ],
   "enableSteps": false,
   "showSteps": true,
-  "steps": [],
+  "steps": [
+    "page.exit-fact",
+    "page.exit-help-with-fees"
+  ],
   "url": "task"
 }

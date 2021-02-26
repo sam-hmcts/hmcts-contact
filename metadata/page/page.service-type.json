@@ -1,0 +1,49 @@
+{
+  "_id": "page.service-type",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.service-type--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Apply for probate",
+          "namespace": "ServiceType",
+          "value": "Probate"
+        },
+        {
+          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Get a divorce",
+          "namespace": "ServiceType",
+          "value": "Divorce"
+        },
+        {
+          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Make a court claim for money",
+          "namespace": "ServiceType",
+          "value": "OCMC"
+        },
+        {
+          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__4",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.service-type--radios.auto_name__1--radio.auto_value__4--textarea.auto_name__2",
+            "_type": "textarea",
+            "hint": "Explain which court or tribunal service you need help with",
+            "label": "What you're trying to do",
+            "name": "auto_name__2"
+          },
+          "label": "Other (please state)",
+          "value": "Other"
+        }
+      ],
+      "legend": "What are you trying to do?",
+      "name": "ServiceTypeSelector"
+    }
+  ],
+  "url": "service-type"
+}

@@ -14,6 +14,7 @@
   "lede": "Use this form to contact HMCTS about a probate or divorce application, or about a court claim for money",
   "steps": [
     "page.task",
+    "page.service-type",
     "page._new-or-existing",
     "page.applicant-details",
     "page.representative-details",

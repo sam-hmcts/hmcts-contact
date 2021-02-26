@@ -3,21 +3,8 @@
   "_type": "page.summary",
   "actionType": "custom-1",
   "body": "",
-  "components": [
-    {
-      "_id": "page.message-and-submit--textarea.auto_name__1",
-      "_type": "textarea",
-      "errors": {
-        "required": {}
-      },
-      "hint": "Give as much information as possible",
-      "label": "Your message",
-      "name": "MessageContent",
-      "optionalText": ""
-    }
-  ],
-  "heading": "Your enquiry",
+  "heading": "Check your answers",
   "sendBody": "By sending this enquiry you confirm that, to the best of your knowledge, the information you are providing is correct.",
   "sendHeading": "Now send your enquiry",
-  "url": "your-enquiry"
+  "url": "check-answers"
 }

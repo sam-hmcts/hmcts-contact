@@ -1,0 +1,14 @@
+{
+  "_id": "page.your-query",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.your-query--textarea.auto_name__1",
+      "_type": "textarea",
+      "hint": "Give as much detail as possible",
+      "label": "Your enquiry",
+      "name": "MessageContent"
+    }
+  ],
+  "url": "your-query"
+}

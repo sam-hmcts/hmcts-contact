@@ -1,8 +1,9 @@
 {
   "_id": "page.exit-fact",
   "_type": "page.exit",
-  "body": "Use the '[find a court or tribunal service](https://www.find-court-tribunal.service.gov.uk) to find a court or tribunal building in England or Wales. It will give you information on each building, including its:\r\n\r\n* address\r\n* direct contact details\r\n* opening times\r\n* visitor information e.g. disabled access or parking",
+  "body": "It will give you information on each building, including its:\r\n\r\n* address\r\n* direct contact details\r\n* opening times\r\n* visitor information e.g. disabled access or parking",
   "heading": "Find a court or tribunal",
+  "lede": "Use the [find a court or tribunal service](https://www.find-court-tribunal.service.gov.uk) to find a court or tribunal building in England or Wales. ",
   "show": {
     "identifier": "SelectEnquiryType",
     "operator": "is",

@@ -49,6 +49,16 @@
       "label": "Your email",
       "name": "ContactEmail",
       "namespace": "ApplicantDetails"
+    },
+    {
+      "_id": "page.your-details--number.auto_name__1",
+      "_type": "number",
+      "hint": "We may be able to resolve your query more quickly if we can call you",
+      "label": "Phone number (optional)",
+      "name": "ContactPhone",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "enableSteps": true,

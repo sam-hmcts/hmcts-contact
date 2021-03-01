@@ -4,6 +4,17 @@
   "body": "Use the [Find a court or tribunal](https://www.find-court-tribunal.service.gov.uk) service to find out how to contact HMCTS about any other court and tribunal service.",
   "components": [
     {
+      "_id": "page.start--content--2",
+      "_type": "content",
+      "html": "**If your query is urgent**\r\n\r\nWe aim to respond to queries we receive through this service within 10 working days. If you query is urgent, call:\r\n\r\n* 0300 123 1072 for [probate enquiries](https://www.find-court-tribunal.service.gov.uk/courts/probate-service-centre)\r\n* 0300 303 0642 for [divorce enquiries](https://www.find-court-tribunal.service.gov.uk/courts/divorce-service-centre)\r\n* 0300 123 1372 for [court claims for money](https://www.find-court-tribunal.service.gov.uk/courts/county-court-money-claims-centre-ccmcc)\r\n\r\nThese call centres are open Monday to Friday, 8am to 4pm."
+    },
+    {
+      "_id": "page.start--details",
+      "_type": "details",
+      "html": "Calls to these numbers cost up to 10p per minute from landlines and between 3p and 40p per minute from mobiles, depending on your provider.",
+      "summary": "Find out about call charges"
+    },
+    {
       "$component": true,
       "$content": true,
       "$definition": true,

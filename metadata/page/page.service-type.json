@@ -7,34 +7,28 @@
       "_type": "radios",
       "items": [
         {
-          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__1",
-          "_type": "radio",
-          "label": "Apply for probate",
-          "namespace": "ServiceType",
-          "value": "Probate"
-        },
-        {
-          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__2",
-          "_type": "radio",
-          "label": "Get a divorce",
-          "namespace": "ServiceType",
-          "value": "Divorce"
-        },
-        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.service-type--radios.auto_name__1--radio.auto_value__3",
           "_type": "radio",
-          "label": "Make a court claim for money",
+          "hint": "For example, because you are owed money or responding to a money claim against you",
+          "label": "A court claim for money",
           "namespace": "ServiceType",
           "value": "OCMC"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.service-type--radios.auto_name__1--radio.auto_value__4",
           "_type": "radio",
-          "label": "Other",
+          "hint": "For example, applying for divorce or for a grant of probate",
+          "label": "Another court or tribunal service",
           "value": "Other"
         }
       ],
-      "legend": "What are you trying to do?",
+      "legend": "What do you need help with?",
       "name": "ServiceTypeSelector"
     }
   ],

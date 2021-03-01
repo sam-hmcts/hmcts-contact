@@ -8,11 +8,17 @@
       "hint": "Select the option that best describes you",
       "items": [
         {
+          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Claimant",
+          "value": "Claimant"
+        },
+        {
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__8",
           "_type": "radio",
-          "label": "Member of the public",
+          "label": "Defendant",
           "namespace": "ApplicantType",
-          "value": "MemberOfPublic"
+          "value": "Defendant"
         },
         {
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__9",

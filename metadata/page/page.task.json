@@ -45,7 +45,7 @@
           "value": "FindCourtOrTribunal"
         }
       ],
-      "legend": "About your enquiry",
+      "legend": "About your query",
       "name": "SelectEnquiryType"
     }
   ],

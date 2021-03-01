@@ -1,12 +1,11 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use the [Find a court or tribunal](https://www.find-court-tribunal.service.gov.uk) service to find out how to contact HMCTS about any other court and tribunal service.",
   "components": [
     {
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "**If your query is urgent**\r\n\r\nWe aim to respond to queries we receive through this service within 10 working days. If your query is urgent, call:\r\n\r\n* 0300 123 1072 for [probate enquiries](https://www.find-court-tribunal.service.gov.uk/courts/probate-service-centre)\r\n* 0300 303 0642 for [divorce enquiries](https://www.find-court-tribunal.service.gov.uk/courts/divorce-service-centre)\r\n* 0300 123 1372 for [court claims for money](https://www.find-court-tribunal.service.gov.uk/courts/county-court-money-claims-centre-ccmcc)\r\n\r\nOur call centres are open Monday to Friday, 8am to 4pm."
+      "html": "**If your query is urgent**\r\n\r\n* Telephone 0300 123 1372\r\n* Monday to Friday, 8am to 4pm (except public holidays)"
     },
     {
       "_id": "page.start--details",
@@ -20,11 +19,16 @@
       "$definition": true,
       "_id": "page.start--content",
       "_type": "content",
-      "html": "## Before you start\r\n\r\nTo use this service you'll need:\r\n\r\n* a case reference number (if you have one)\r\n* an email address HMCTS can use to reply to you\r\n\r\nIf you're a legal professional, you'll need your client's name, address and date of birth. You can't use this service to send documents to HMCTS. "
+      "html": "## Before you start\r\n\r\nWe will respond to your query within 10 working days. To use this service you'll need:\r\n\r\n* a case reference number (if you have one)\r\n* an email address HMCTS can use to reply to you"
+    },
+    {
+      "_id": "page.start--warning",
+      "_type": "warning",
+      "html": "You can't use this service to send documents to HMCTS"
     }
   ],
-  "heading": "Contact HMCTS",
-  "lede": "Use this form to contact HMCTS about a probate or divorce application, or about a court claim for money",
+  "heading": "Contact HMCTS about a money claim",
+  "lede": "Contact HM Courts and Tribunals service about a court claim for money. This includes claiming money you're owed or responding to a claim for money made against you.",
   "steps": [
     "page.service-type",
     "page.task",

@@ -1,0 +1,12 @@
+{
+  "_id": "page.exit-other-query",
+  "_type": "page.exit",
+  "body": "**Crime ('Single Justice Service')**\r\n\r\n* email <contactSJS@justice.gov.uk> or <SJS@justice.gov.uk>\r\n* call 0300 303 0656 (9am to 5pm, Monday to Friday)\r\n\r\n**Social security and child support**\r\n\r\n* email <contactsscs@justice.gov.uk>\r\n* call 0300 123 1142 (8am to 5pm, Monday to Friday)\r\n\r\n**Immigration and asylum**\r\n\r\n* email <customer.service@justice.gov.uk> if your case has not been allocated to a hearing centre\r\n* call 0300 123 1711 (8.30am to 5pm, Monday to Friday)\r\n\r\n**Tax and employment tribunals**\r\n\r\nUse the ['Find a court or tribunal' service](https://www.find-court-tribunal.service.gov.uk/services/money/service-areas/update) to find out how to tell HMCTS about a change to your case.\r\n\r\n**If you don't know the service you need**\r\n\r\nIf you don't know which service you need, you can:\r\n\r\n* [use the 'Find a court or tribunal' service](https://www.find-court-tribunal.service.gov.uk/services/update) to find the right contact number for your query\r\n* reply directly to an email you've received from us about your case\r\n",
+  "heading": "Contact details for other services",
+  "show": {
+    "identifier": "ServiceTypeSelector",
+    "operator": "is",
+    "value": "Other"
+  },
+  "url": "exit-other-query"
+}

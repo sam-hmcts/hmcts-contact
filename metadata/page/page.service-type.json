@@ -30,20 +30,17 @@
         {
           "_id": "page.service-type--radios.auto_name__1--radio.auto_value__4",
           "_type": "radio",
-          "conditionalComponent": {
-            "_id": "page.service-type--radios.auto_name__1--radio.auto_value__4--textarea.auto_name__2",
-            "_type": "textarea",
-            "hint": "Explain which court or tribunal service you need help with",
-            "label": "What you're trying to do",
-            "name": "auto_name__2"
-          },
-          "label": "Other (please state)",
+          "label": "Other",
           "value": "Other"
         }
       ],
       "legend": "What are you trying to do?",
       "name": "ServiceTypeSelector"
     }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.exit-other-query"
   ],
   "url": "service-type"
 }

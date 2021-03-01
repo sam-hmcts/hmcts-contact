@@ -9,14 +9,14 @@
       "$definition": true,
       "_id": "page.start--content",
       "_type": "content",
-      "html": "## Before you start\r\n\r\nTo use this service you'll need:\r\n\r\n* a case reference number (if you have one)\r\n* an email address HMCTS can use to reply to you\r\n\r\nYou can't use this service to send documents to HMCTS. Instead, respond to the email directly with your documents attached."
+      "html": "## Before you start\r\n\r\nTo use this service you'll need:\r\n\r\n* a case reference number (if you have one)\r\n* an email address HMCTS can use to reply to you\r\n\r\nIf you're a legal professional, you'll need your client's name, address and date of birth.\r\n\r\nYou can't use this service to send documents to HMCTS. Instead, respond to the email directly with your documents attached."
     }
   ],
   "heading": "Contact HMCTS",
   "lede": "Use this form to contact HMCTS about a probate or divorce application, or about a court claim for money",
   "steps": [
-    "page.task",
     "page.service-type",
+    "page.task",
     "page._new-or-existing",
     "page.applicant-details",
     "page.representative-details",

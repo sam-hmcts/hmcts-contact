@@ -6,7 +6,7 @@
     {
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "**If your query is urgent**\r\n\r\nWe aim to respond to queries we receive through this service within 10 working days. If you query is urgent, call:\r\n\r\n* 0300 123 1072 for [probate enquiries](https://www.find-court-tribunal.service.gov.uk/courts/probate-service-centre)\r\n* 0300 303 0642 for [divorce enquiries](https://www.find-court-tribunal.service.gov.uk/courts/divorce-service-centre)\r\n* 0300 123 1372 for [court claims for money](https://www.find-court-tribunal.service.gov.uk/courts/county-court-money-claims-centre-ccmcc)\r\n\r\nThese call centres are open Monday to Friday, 8am to 4pm."
+      "html": "**If your query is urgent**\r\n\r\nWe aim to respond to queries we receive through this service within 10 working days. If your query is urgent, call:\r\n\r\n* 0300 123 1072 for [probate enquiries](https://www.find-court-tribunal.service.gov.uk/courts/probate-service-centre)\r\n* 0300 303 0642 for [divorce enquiries](https://www.find-court-tribunal.service.gov.uk/courts/divorce-service-centre)\r\n* 0300 123 1372 for [court claims for money](https://www.find-court-tribunal.service.gov.uk/courts/county-court-money-claims-centre-ccmcc)\r\n\r\nOur call centres are open Monday to Friday, 8am to 4pm."
     },
     {
       "_id": "page.start--details",
@@ -20,7 +20,7 @@
       "$definition": true,
       "_id": "page.start--content",
       "_type": "content",
-      "html": "## Before you start\r\n\r\nTo use this service you'll need:\r\n\r\n* a case reference number (if you have one)\r\n* an email address HMCTS can use to reply to you\r\n\r\nIf you're a legal professional, you'll need your client's name, address and date of birth.\r\n\r\nYou can't use this service to send documents to HMCTS. Instead, respond to the email directly with your documents attached."
+      "html": "## Before you start\r\n\r\nTo use this service you'll need:\r\n\r\n* a case reference number (if you have one)\r\n* an email address HMCTS can use to reply to you\r\n\r\nIf you're a legal professional, you'll need your client's name, address and date of birth. You can't use this service to send documents to HMCTS. "
     }
   ],
   "heading": "Contact HMCTS",

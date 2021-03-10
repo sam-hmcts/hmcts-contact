@@ -5,7 +5,7 @@
     {
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "**If your query is urgent**\r\n\r\n* Telephone 0300 123 1372\r\n* Monday to Friday, 8am to 4pm (except public holidays)"
+      "html": "## If your query is urgent\r\n\r\n**For 'single justice procedure' notices (for example transport, motoring or licensing offences)**\r\n\r\nTelephone 0300 303 0656, 9am to 5pm Monday to Friday (except public holidays) \r\n\r\n**For probate applications**\r\n\r\nTelephone 0300 303 0648, 8am to 5pm Monday to Friday (except public holidays)\r\n\r\n**For money claims**\r\n\r\nTelephone 0300 123 1372, Monday to Friday, 8am to 4pm (except public holidays)"
     },
     {
       "_id": "page.start--details",
@@ -27,8 +27,8 @@
       "html": "You can't use this service to send documents to HMCTS"
     }
   ],
-  "heading": "Contact HMCTS about a money claim",
-  "lede": "Use this service to contact HM Courts and Tribunals service about a court claim for money. This includes claiming money you're owed or responding to a claim made against you.",
+  "heading": "Contact HM Courts and Tribunals Service",
+  "lede": "Use this service to contact HM Courts and Tribunals Service about a single justice procedure notice (for example, from the police or TV licensing), a probate application or a court claim for money.",
   "steps": [
     "page.service-type",
     "page.task",

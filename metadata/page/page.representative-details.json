@@ -3,27 +3,10 @@
   "_type": "page.form",
   "components": [
     {
-      "_id": "page.representative-details--radios.auto_name__1",
-      "_type": "radios",
-      "hint": "Are you representing the claimant or the defendant?",
-      "items": [
-        {
-          "_id": "page.representative-details--radios.auto_name__1--radio.auto_value__1",
-          "_type": "radio",
-          "label": "My client is the claimant",
-          "value": "ClientIsClaimant"
-        },
-        {
-          "_id": "page.representative-details--radios.auto_name__1--radio.auto_value__2",
-          "_type": "radio",
-          "label": "My client is the defendant",
-          "value": "ClientIsDefendant"
-        }
-      ],
-      "legend": "Claimant or defendant?",
-      "name": "auto_name__1"
-    },
-    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.representative-details--text.auto_name__4",
       "_type": "text",
       "label": "Client's first name",
@@ -31,6 +14,10 @@
       "namespace": "ClientDetails"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.representative-details--text.auto_name__7",
       "_type": "text",
       "label": "Client's last name",
@@ -38,6 +25,10 @@
       "namespace": "ClientDetails"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fields": true,
       "_id": "page.representative-details--date.auto_name__9",
       "_type": "date",
       "legend": "Client's date of birth",
@@ -45,6 +36,10 @@
       "namespace": "ClientDetails"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.representative-details--text.auto_name__10",
       "_type": "text",
       "label": "Client's postcode",
@@ -52,6 +47,9 @@
       "namespace": "ClientDetails"
     },
     {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
       "_id": "page.representative-details--details",
       "_type": "details",
       "html": "HMCTS will use this information to match case details to your enquiry. It won't be used for any other reason.",
@@ -60,9 +58,19 @@
   ],
   "heading": "About your client",
   "show": {
-    "identifier": "SelectApplicantType",
-    "operator": "is",
-    "value": "Representative"
+    "all": [
+      {
+        "identifier": "SelectApplicantType",
+        "operator": "is",
+        "value": "Representative"
+      },
+      {
+        "identifier": "ServiceTypeSelector",
+        "negated": true,
+        "operator": "is",
+        "value": "OCMC"
+      }
+    ]
   },
   "url": "representative-details"
 }

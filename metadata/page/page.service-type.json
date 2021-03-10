@@ -18,6 +18,20 @@
           "value": "OCMC"
         },
         {
+          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "hint": "For example, if you are dealing with the estate of someone who died",
+          "label": "An application for probate",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "hint": "For example, fare evasion, motoring or TV licensing offences",
+          "label": "A single justice procedure notice",
+          "value": "auto_value__1"
+        },
+        {
           "$component": true,
           "$definition": true,
           "$option": true,

@@ -8,19 +8,18 @@
       "hint": "Select the option that best describes you",
       "items": [
         {
-          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__1",
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__3",
           "_type": "radio",
-          "label": "Claimant",
-          "value": "Claimant"
+          "label": "Member of the public",
+          "value": "auto_value__3"
         },
         {
-          "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__8",
-          "_type": "radio",
-          "label": "Defendant",
-          "namespace": "ApplicantType",
-          "value": "Defendant"
-        },
-        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__9",
           "_type": "radio",
           "label": "Legal representative",
@@ -28,6 +27,9 @@
           "value": "Representative"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__10",
           "_type": "radio",
           "label": "Government department or agency",
@@ -35,6 +37,9 @@
           "value": "GovernmentOrAgency"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__11",
           "_type": "radio",
           "label": "Member of the Judiciary",
@@ -42,6 +47,9 @@
           "value": "auto_value__11"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.applicant-details--radios.auto_name__3--radio.auto_value__12",
           "_type": "radio",
           "label": "Court or tribunal staff member",
@@ -53,5 +61,11 @@
       "name": "SelectApplicantType"
     }
   ],
+  "show": {
+    "identifier": "ServiceTypeSelector",
+    "negated": true,
+    "operator": "is",
+    "value": "OCMC"
+  },
   "url": "applicant-details"
 }

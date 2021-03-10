@@ -1,0 +1,39 @@
+{
+  "_id": "page.money-claims",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.money-claims--radios.auto_name__2",
+      "_type": "radios",
+      "hint": "Choose the option that best describes you",
+      "items": [
+        {
+          "_id": "page.money-claims--radios.auto_name__2--radio.auto_value__3",
+          "_type": "radio",
+          "label": "I've received a money claim against me and want to respond",
+          "value": "DefendantRespondToClaim"
+        },
+        {
+          "_id": "page.money-claims--radios.auto_name__2--radio.auto_value__4",
+          "_type": "radio",
+          "label": "I've made a money claim and want an update on progress",
+          "value": "ClaimantUpdateOnProgress"
+        },
+        {
+          "_id": "page.money-claims--radios.auto_name__2--radio.auto_value__4--2",
+          "_type": "radio",
+          "label": "I'm having trouble using the money claim service",
+          "value": "MoneyClaimTechnicalIssue"
+        }
+      ],
+      "legend": "About you",
+      "name": "auto_name__2"
+    }
+  ],
+  "show": {
+    "identifier": "ServiceTypeSelector",
+    "operator": "is",
+    "value": "OCMC"
+  },
+  "url": "money-claims"
+}

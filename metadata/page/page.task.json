@@ -50,13 +50,16 @@
     }
   ],
   "enableSteps": false,
+  "show": {
+    "identifier": "ServiceTypeSelector",
+    "negated": true,
+    "operator": "is",
+    "value": "OCMC"
+  },
   "showSteps": true,
   "steps": [
     "page.exit-fact",
-    "page.exit-help-with-fees",
-    "page.money-claims",
-    "page.exit-money-claim-update",
-    "page.exit-respond-to-claim"
+    "page.exit-help-with-fees"
   ],
   "url": "task"
 }

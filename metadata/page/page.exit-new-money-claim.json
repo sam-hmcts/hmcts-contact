@@ -1,0 +1,20 @@
+{
+  "_id": "page.exit-new-money-claim",
+  "_type": "page.exit",
+  "body": "Find out [how to make a money claim](https://www.gov.uk/make-money-claim), including whether you're eligible.",
+  "components": [
+    {
+      "_id": "page.exit-new-money-claim--inset",
+      "_type": "inset",
+      "html": "Before making a claim, contact the person or organisation to try to [resolve the issue by discussion or mediation](https://civilmediation.org/for-the-public/about-mediation/)."
+    }
+  ],
+  "heading": "How to make a money claim",
+  "lede": "You can make a money claim if you think a person or organisation owes you money and will not pay you back. You’ll have to [pay a fee](https://www.gov.uk/make-court-claim-for-money/court-fees).  ",
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "MakeNewMoneyClaim"
+  },
+  "url": "exit-new-money-claim"
+}

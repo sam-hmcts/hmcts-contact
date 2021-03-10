@@ -1,13 +1,13 @@
 {
-  "_id": "page.exit-respond-to-claim",
+  "_id": "page.exit-respond-to-claim--2",
   "_type": "page.exit",
   "body": "**If you choose not to challenge the claim**\r\n\r\nYou should pay the full amount directly to the person who made the claim. You don't need to use the 'Money claims' service to do this.\r\n\r\n**If you want to challenge the claim**\r\n\r\n[Sign in to the 'Money claims' service](https://www.gov.uk/respond-money-claim) to:\r\n\r\n* ask for more time to respond\r\n* offer to pay a lesser amount\r\n* dispute some or all of the claim\r\n* dispute the claim and make a counter-claim\r\n\r\nYou'll need your claim number and security code from the notice you received. You may also have to pay a fee. ",
-  "heading": "Respond to a money claim made against you",
-  "lede": "You must respond if someone claims you owe them money. You must respond by the date on the email or letter you receive.",
+  "heading": "How to respond to a money claim",
+  "lede": "You must respond if someone claims you owe them money - this has to be by the date on the email or letter you receive.",
   "show": {
-    "identifier": "auto_name__2",
+    "identifier": "auto_name__1",
     "operator": "is",
-    "value": "DefendantRespondToClaim"
+    "value": "DefendantRespondToMoneyClaim"
   },
   "url": "exit-respond-to-claim"
 }

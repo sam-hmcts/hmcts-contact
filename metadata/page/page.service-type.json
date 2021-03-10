@@ -12,7 +12,7 @@
           "$option": true,
           "_id": "page.service-type--radios.auto_name__1--radio.auto_value__3",
           "_type": "radio",
-          "hint": "For example, because you are owed money or responding to a money claim against you",
+          "hint": "For example because you are owed money or responding to a money claim against you",
           "label": "A court claim for money",
           "namespace": "ServiceType",
           "value": "OCMC"
@@ -20,14 +20,14 @@
         {
           "_id": "page.service-type--radios.auto_name__1--radio.auto_value__2",
           "_type": "radio",
-          "hint": "For example, if you are dealing with the estate of someone who died",
+          "hint": "For example if you are dealing with the estate of someone who died",
           "label": "An application for probate",
           "value": "auto_value__2"
         },
         {
           "_id": "page.service-type--radios.auto_name__1--radio.auto_value__1",
           "_type": "radio",
-          "hint": "For example, fare evasion, motoring or TV licensing offences",
+          "hint": "For example fare evasion, motoring or TV licensing offences",
           "label": "A single justice procedure notice",
           "value": "auto_value__1"
         },
@@ -37,7 +37,7 @@
           "$option": true,
           "_id": "page.service-type--radios.auto_name__1--radio.auto_value__4",
           "_type": "radio",
-          "hint": "For example, applying for divorce or for a grant of probate",
+          "hint": "For example applying for divorce",
           "label": "Another court or tribunal service",
           "value": "Other"
         }

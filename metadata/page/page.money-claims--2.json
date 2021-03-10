@@ -1,0 +1,51 @@
+{
+  "_id": "page.money-claims--2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.money-claims--2--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.money-claims--2--radios.auto_name__1--radio.auto_value__7",
+          "_type": "radio",
+          "hint": "For example if you think a person or organisation owes you money and will not pay you back",
+          "label": "I want to find out how to make a money claim",
+          "value": "MakeNewMoneyClaim"
+        },
+        {
+          "_id": "page.money-claims--2--radios.auto_name__1--radio.auto_value__5",
+          "_type": "radio",
+          "label": "I've made a money claim and want an update on progress",
+          "value": "ClaimantMoneyClaimUpdateOnProgress"
+        },
+        {
+          "_id": "page.money-claims--2--radios.auto_name__1--radio.auto_value__4",
+          "_type": "radio",
+          "label": "I've received a money claim against me and want to respond to it",
+          "value": "DefendantRespondToMoneyClaim"
+        },
+        {
+          "_id": "page.money-claims--2--radios.auto_name__1--radio.auto_value__6",
+          "_type": "radio",
+          "label": "I'm having trouble using the money claim service",
+          "value": "MoneyClaimTechnicalIssue"
+        }
+      ],
+      "legend": "About you",
+      "name": "auto_name__1"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "identifier": "ServiceTypeSelector",
+    "operator": "is",
+    "value": "OCMC"
+  },
+  "steps": [
+    "page.exit-respond-to-claim--2",
+    "page.exit-update-on-money-claim",
+    "page.exit-new-money-claim"
+  ],
+  "url": "money-claims"
+}

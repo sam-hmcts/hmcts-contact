@@ -3,17 +3,6 @@
   "_type": "page.start",
   "components": [
     {
-      "_id": "page.start--content--2",
-      "_type": "content",
-      "html": "## If your query is urgent\r\n\r\n**For 'single justice procedure' notices (for example transport, motoring or licensing offences)**\r\n\r\nTelephone 0300 303 0656, 9am to 5pm Monday to Friday (except public holidays) \r\n\r\n**For probate applications**\r\n\r\nTelephone 0300 303 0648, 8am to 5pm Monday to Friday (except public holidays)\r\n\r\n**For money claims**\r\n\r\nTelephone 0300 123 1372, Monday to Friday, 8am to 4pm (except public holidays)"
-    },
-    {
-      "_id": "page.start--details",
-      "_type": "details",
-      "html": "Calls to these numbers cost up to 10p per minute from landlines and between 3p and 40p per minute from mobiles, depending on your provider.",
-      "summary": "Find out about call charges"
-    },
-    {
       "$component": true,
       "$content": true,
       "$definition": true,
@@ -22,9 +11,25 @@
       "html": "## Before you start\r\n\r\nWe will respond to your query within 10 working days. To use this service you'll need:\r\n\r\n* a case reference number (if you have one)\r\n* an email address HMCTS can use to reply to you"
     },
     {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
       "_id": "page.start--warning",
       "_type": "warning",
       "html": "You can't use this service to send documents to HMCTS"
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.start--content--3",
+      "_type": "content",
+      "html": "If your query is urgent, call:\r\n\r\n* 0300 303 0656 for 'single justice procedure' notices (9am to 5pm Monday to Friday except public holidays)\r\n* 0300 303 0648 for probate applications (8am to 5pm Monday to Friday except public holidays)\r\n* 0300 123 1372 for money claims (8am to 4pm Monday to Friday except public holidays)"
+    },
+    {
+      "_id": "page.start--details--2",
+      "_type": "details",
+      "html": "Calls to these numbers cost up to 10p per minute from landlines and between 3p and 40p per minute from mobiles, depending on your provider.",
+      "summary": "Call charges for 0300 numbers"
     }
   ],
   "heading": "Contact HM Courts and Tribunals Service",

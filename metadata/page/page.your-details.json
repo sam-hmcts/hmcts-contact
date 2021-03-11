@@ -28,21 +28,7 @@
       "$component": true,
       "$control": true,
       "$definition": true,
-      "$fields": true,
-      "_id": "page.your-details--date.auto_name__8",
-      "_type": "date",
-      "hint": "[% hint.date %]. We'll only use this to match your query to information we hold",
-      "legend": "Your date of birth",
-      "name": "ClientDateOfBirth",
-      "namespace": "ClientDetails",
-      "show": {
-        "identifier": "SelectApplicantType",
-        "negated": true,
-        "operator": "is",
-        "value": "Representative"
-      }
-    },
-    {
+      "$field": true,
       "_id": "page.your-details--email.auto_name__4",
       "_type": "email",
       "hint": "We'll only use this to contact you about your application",
@@ -51,6 +37,10 @@
       "namespace": "ApplicantDetails"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.your-details--number.auto_name__1",
       "_type": "number",
       "hint": "We may be able to resolve your query more quickly if we can call you",
